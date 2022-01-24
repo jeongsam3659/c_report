@@ -1,0 +1,39 @@
+출처:https://www.youtube.com/watch?v=q6fPjQAzll8
+
+오전 12:33 2022-01-14
+C 필기
+---
+## 목록
+- 환경설정
+-
+-
+-
+-
+-
+
+---
+
+
+### 환경설정
+
+1. MinGW(mingw-get-seup.exe)
+
+2. 컴파일러 설치.
+ - mingw-developer-toolkit
+ - mingw32-base
+ - ming232-gcc-g++
+
+ 을 우클릭하고 mark for installation하고 / Apply Changes
+
+
+3. 환경변수 편집.
+ - 시스템 속성 / 고급 / 환경변수
+ - Path에서 MinGW\bin 경로 추가.
+ - ex_ C:\MinGW\bin
+
+ 4. 설치완료 cmd
+ gcc -v 명령어를 입력하면 gcc 버젼
+ ...
+ > gcc version 6.3.0 (MinGW.org GCC-6.3.0-1)
+ 나오면 확인
+ 
