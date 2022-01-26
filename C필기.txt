@@ -60,3 +60,38 @@ int main(void){                 << main에서 시작되는걸로 약속되어있
  - 오버플로
 
  - 사칙연산
+
+   ====
+ - 사용자 정의 자료형User Defined / 파생 자료형Derived / 원시 자료형Primitive(일반적)
+  
+  숫자(실수)를 표현하고자 int double float자료형을 사용.
+  void는 자료형 자체가 없다는 의미
+  C언어는 'String'자료형이 없고 문자를 나타내는 char형만 사용.
+
+  Variables Data Types
+  Integer
+  Character
+  float
+  Double 
+
+  ex)
+  연봉구하기
+      #define MONTHS 12
+      상수에 대한 정의 
+        MONTHS라는 상수에 12를 정의.
+
+
+  아스키코드 >> int문자형 / char문자형\
+      %c >> 하나의char형을 출력
+      C언어의 char형은 내부적으로 숫자로 구성.
+
+      Char x = 65; printf("%c", x); >> A로 출력 
+      또는
+      Char z = 'B'; printf("%d", x); >> 66으로 출력
+    
+  10진수를 8진수 혹은 16진수로 바꾸어 출력
+      8진수 >> %o
+      16진수 >> %x 
+  
+   ====
+
