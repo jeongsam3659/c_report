@@ -1,20 +1,20 @@
 #include <stdio.h>
 
-// °è»ê±â 
+// ê³„ì‚°ê¸° 
 int main(void){
 	
 	char o;
 	int x, y;
 	
 	while(1){
-		printf("°è»ê±âÀÔ´Ï´Ù. \n ¼ö½ÄÀ» ÀÔ·ÂÇÏ¼¼¿©.");
+		printf("ê³„ì‚°ê¸°ì…ë‹ˆë‹¤. \n ìˆ˜ì‹ì„ ì…ë ¥í•˜ì„¸ì—¬.");
 		scanf("%d %c %d",&x, &o, &y);
 	
 		if(o == '+'){
-			//µ¡¼À 
+			//ë§ì…ˆ 
 			printf("%d %c %d = %d\n", x,o,y,x+y);
 		}else if(o == '-'){
-			// »¬¼À 
+			// ëº„ì…ˆ 
 			if( x > y){
 				printf("%d %c %d = %d\n", x,o,y,x-y);
 			}else{
@@ -22,24 +22,24 @@ int main(void){
 			}
 			
 		}else if(o == '*'){
-			// °ö¼À 
+			// ê³±ì…ˆ 
 			printf("%d %c %d = %d\n", x,o,y,x*y);
 		}else if(o == '/'){
-			// °ö¼À 
+			// ê³±ì…ˆ 
 			printf("%d %c %d = %d\n", x,o,y,x/y);
 			
 		}else{
-			printf("ÀÏ·ÂÀÌ Àß¸øµÇ¾ú½À´Ï´Ù.");
+			printf("ì¼ë ¥ì´ ì˜ëª»ë˜ì—ˆìŠµë‹ˆë‹¤.");
 		}
 		getchar(); 
-		printf("ÇÁ·Î±×·¥À» Á¾·áÇÏ½Ã°Ú½À´Ï±î? ( y / n)"); 
+		printf("í”„ë¡œê·¸ë¨ì„ ì¢…ë£Œí•˜ì‹œê² ìŠµë‹ˆê¹Œ? ( y / n)"); 
 		scanf("%c", &o);
 		if(o == 'n' || o =='N'){
 			continue;
 		}else if(o == 'y' || o =='Y'){
 			break;
 		}else{
-			printf("y/n Áß ÇÏ³ªÀÇ ¹®ÀÚ¸¦ ÀÔ·ÂÇÏ½Ã¿À.");
+			printf("y/n ì¤‘ í•˜ë‚˜ì˜ ë¬¸ìë¥¼ ì…ë ¥í•˜ì‹œì˜¤.");
 		}
 	}
 	

@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main(void){
-	// ±¸±¸´Ü 
+	// êµ¬êµ¬ë‹¨ 
 	int x,i;
-	printf("Á¤¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä. :");
+	printf("ì •ìˆ˜ë¥¼ ìž…ë ¥í•˜ì„¸ìš”. :");
 	scanf("%d", &x); 
 	for(i =1; i<=9; i++){
 		printf("%d * %d =  %d\n", x, i , x * i);

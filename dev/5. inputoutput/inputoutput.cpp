@@ -3,7 +3,7 @@
 // intput/output
 int main(void){
 	
-	//ÀÔ·Â
+	//ìž…ë ¥
 	int x;
 	scanf("%d", &x); 
 	printf("%d\n",x);
