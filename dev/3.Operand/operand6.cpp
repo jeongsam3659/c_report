@@ -7,8 +7,8 @@ int main(void){
 	int max = (x>y) ? x : y;
 	int min = (x<y) ? x : y;
 	
-	printf("x Àı´ë°ªÀº %d \n", absoluteX);
-	printf("x ¿Í yÀÇ ÃÖ´ë°ªÀº %d\n", max);
-	printf("x ¿Í yÀÇ ÃÖ¼ÚÀº %d\n", min);
+	printf("x ì ˆëŒ€ê°’ì€ %d \n", absoluteX);
+	printf("x ì™€ yì˜ ìµœëŒ€ê°’ì€ %d\n", max);
+	printf("x ì™€ yì˜ ìµœì†Ÿì€ %d\n", min);
 	return 0;
 }

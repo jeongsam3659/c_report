@@ -2,11 +2,11 @@
 
 int main(void){
 	int x = 0;
-	printf("°ú°ÅÀÇ x= %d ÀÔ´Ï´Ù.\n",x);
+	printf("ê³¼ê±°ì˜ x= %d ì…ë‹ˆë‹¤.\n",x);
 	x++;
-	printf("ÇöÀçÀÇ x= %d ÀÔ´Ï´Ù.\n",x--);
+	printf("í˜„ì¬ì˜ x= %d ì…ë‹ˆë‹¤.\n",x--);
 	//
-	printf("¹Ì·¡ÀÇ x= %d ÀÔ´Ï´Ù.\n",++x);
+	printf("ë¯¸ë˜ì˜ x= %d ì…ë‹ˆë‹¤.\n",++x);
 	return 0;
 }
  

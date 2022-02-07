@@ -3,8 +3,8 @@
 int main(void){
 	//
 	int x = 100;
-	printf("10Áø¼ö·Î Ãâ·Â : %d\n",x );
-	printf("8Áø¼ö·Î Ãâ·Â : %o\n",x);
+	printf("10ì§„ìˆ˜ë¡œ ì¶œë ¥ : %d\n",x );
+	printf("8ì§„ìˆ˜ë¡œ ì¶œë ¥ : %o\n",x);
 	return 0;
 }
 

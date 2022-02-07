@@ -5,6 +5,6 @@ int main(void){
 	int input = 1000;
 	int minute = input / SECOND_PER_MINUTE;
 	int second = input % SECOND_PER_MINUTE;
-	printf("%dÃÊ´Â %dºĞ %dÃÊ \n",minute, second);
+	printf("%dì´ˆëŠ” %dë¶„ %dì´ˆ \n",minute, second);
 	return 0;
 }

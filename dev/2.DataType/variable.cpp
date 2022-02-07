@@ -10,10 +10,10 @@ int main(void){
 	y = 123.456;
 	
 	printf("%.2f\n", y);
-	printf("º¯¼ö xÀÇ ¸Ş¸ğ¸® Å©±â´Â %dÀÔ´Ï´Ù.\n",sizeof(x));
-	printf("º¯¼ö xÀÇ ¸Ş¸ğ¸® Å©±â´Â %dÀÔ´Ï´Ù.\n",sizeof(y));
+	printf("ë³€ìˆ˜ xì˜ ë©”ëª¨ë¦¬ í¬ê¸°ëŠ” %dì…ë‹ˆë‹¤.\n",sizeof(x));
+	printf("ë³€ìˆ˜ xì˜ ë©”ëª¨ë¦¬ í¬ê¸°ëŠ” %dì…ë‹ˆë‹¤.\n",sizeof(y));
 	
 	int z = INT_MAX;
-	printf("intÇüÀÇ ÃÖ´ë°ª : %d\n",z);
+	printf("intí˜•ì˜ ìµœëŒ€ê°’ : %d\n",z);
 	return 0;
 }

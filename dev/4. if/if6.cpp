@@ -2,17 +2,17 @@
 #define N 10
 
 int main(void){
-	// ÇÇ¶ó¹Ìµå 
+	// í”¼ë¼ë¯¸ë“œ 
 	int i,j;
 	
 	for(i=0; i <N; i++){
 		for(j=N-i-1; j>0; j--){
-			//ºóÄ­ 
+			//ë¹ˆì¹¸ 
 			printf("  ");
 		}
 		for(j=0; j<i; j++){
 			printf("* ");
-			//ºóÄ­ µÎ°³ÇÊ¿ä 
+			//ë¹ˆì¹¸ ë‘ê°œí•„ìš” 
 		}
 		for(j=0; j<i -1; j++){
 			printf("* ");

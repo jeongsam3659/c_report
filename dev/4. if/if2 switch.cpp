@@ -4,9 +4,9 @@ int main(void){
 	int score = 85;
 	
 	if(score >= 90){
-		printf("´ç½ÅÀÇ È®Á¡Àº AÀÔ´Ï´Ù.\n");
+		printf("ë‹¹ì‹ ì˜ í™•ì ì€ Aì…ë‹ˆë‹¤.\n");
 	}else if{
-		printf("´ç½ÅÀÇ È®Á¡Àº BÀÔ´Ï´Ù.\n");
+		printf("ë‹¹ì‹ ì˜ í™•ì ì€ Bì…ë‹ˆë‹¤.\n");
 	}	
 	return 0;
 }
