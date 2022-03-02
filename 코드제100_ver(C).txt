@@ -1,0 +1,74 @@
+--- #1
+다음 문장을 출력하시오.
+Hello
+
+#include <stdio.h>
+
+int main(void){
+    printf("Hello");
+    return 0;
+}
+
+--- #2
+다음 문장을 출력하시오.
+Hello World
+
+
+#include <stdio.h>
+
+int main(void){
+    printf("Hello World");
+    return 0;
+}
+
+--- #3
+다음 문장을 출력하시오.
+Hello
+World
+(두 줄에 걸쳐 줄을 바꿔 출력)
+
+#include <stdio.h>
+
+int main(void){
+    printf("Hello\nWorld");
+    return 0;
+}
+
+
+--- #4
+다음 문장을 출력하시오.
+'Hello'
+
+#include <stdio.h>
+
+int main(void){
+    printf("\'Hello\'");
+    return 0;
+}
+
+
+--- #5
+다음 문장을 출력하시오.
+"Hello World"
+(단, 큰따옴표도 함께 출력한다.)
+
+#include <stdio.h>
+
+int main(void){
+    printf("\"Hello World\"");
+    return 0;
+}
+
+--- #6
+다음 문장을 출력하시오.
+"!@#$%^&*()"
+
+#include <stdio.h>
+
+int main(void){
+    char a[20] = "\"!@#$%^&*()\"";
+    printf("%s", a);
+    
+    return 0;
+}
+
